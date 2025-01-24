@@ -1,22 +1,106 @@
+<!DOCTYPE html>
 <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin: 20px 0;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
             text-align: center;
         }
-        th {
-            background-color: #f4f4f4;
-            font-weight: bold;
+ 
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
         }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
+ 
+        h1 {
+            margin: 0;
         }
-        tr:hover {
-            background-color: #e2e2e2;
+ 
+        section {
+            padding: 2rem;
         }
+ 
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+ 
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            text-decoration: underline;
+        }
+
 </style>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sofia Tamayo Web 2º Bach</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Sofia Tamayo Web 2º Bach</h1>
+</header>
+<section><h2>
+  <a href="https://www.madridactual.es/7996681-resumen-de-noticias-becas-de-excelencia-en-madrid-ia-en-diagnostico-medico-fibra-contra-el-cancer-y-crecimiento-de-autonomos-1736746254" target="_blank">MADRID ACTUAL</a></h2>
+  <img src="https://www.civitatis.com/f/pseo/espana/madrid/gran-via-noche-madrid-1200.jpg" alt= "TAMAÑO IMAGEN" style= "width:400px;height:300px;">
+    <section> <h2>Bienvenidos a la página de introducción a Sofia Tamayo Web</h2>
+<p>En esta página exploraremos los conceptos básicos de HTML, CSS y JavaScript, esenciales para el desarrollo web moderno.</p>
+<p>¡Prepárate para aprender y construir tus propias páginas web!</p>
+</section>
+ <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ana</td>
+                <td>25</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Luis</td>
+                <td>30</td>
+                <td>Barcelona</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>María</td>
+                <td>22</td>
+                <td>Sevilla</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Tabla generada con HTML</td>
+            </tr>
+        </tfoot>
+    </table>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/oEbVbKufTII?si=4ve_qRnSZ-Wn_76O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <section>
+      <img src="istockphoto-1303417572-612x612.jpg" alt= "TAMAÑO IMAGEN" style= "width:400px;height:300px;">
+  </section>
+    <footer>
+<p>&copy; 2025 Sofia Tamayo Web - 2º Bachillerato</p>
+</footer>
+</body>
+</html>
